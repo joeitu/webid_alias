@@ -2,7 +2,10 @@
 
   DESCRIPTION
 
-    An alias service for WebID. As DNS serves IP address from domain name, this service return a full webid url from a simplier alias in the form of `@<host>.<username>`
+    An alias service for WebID. 
+    As DNS serves IP address from domain name, this service return a 
+    full webid url from a simplier alias in the form of 
+    `@<host>.<username>`
 
 
     Example: ( `sc` is the alias for solidcommunity.net )
@@ -13,7 +16,9 @@
 
     It has two primary benefits:
       - do not bother to type a full WebID
-      - use a format closest to what other platforms use at an identifier ( sharing the same `@` used by email address and social media username ). The URL format of WebID might be misleading. 
+      - use a format closest to what other platforms use at an 
+        identifier ( sharing the same `@` used by email address and social 
+        media username ). The URL format of WebID might be misleading. 
 
 
   API USAGE
@@ -27,6 +32,7 @@
 
     GET <%= baseurl %>/@[host_alias].[username]
 
-    Return the complete WebID from the alias. See /aliases to get a complete list of available aliases
+    Return the complete WebID from the alias. See /aliases to get a 
+    complete list of available aliases
 </pre>  
 
